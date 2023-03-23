@@ -1,0 +1,61 @@
+/* Fondo amarillo */
+body {
+  background-color: #FEE12B;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Formulario centrado con borde azul */
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: #0D3D56;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Etiquetas de texto */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Campos de entrada de texto */
+input[type="text"], input[type="date"], input[type="file"] {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Botón de enviar */
+input[type="submit"] {
+  background-color: #FEE12B;
+  color: #0D3D56;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Estilo al pasar el mouse sobre el botón de enviar */
+input[type="submit"]:hover {
+  background-color: #0D3D56;
+  color: #FEE12B;
+}
+
+/* Campo de carga de archivo */
+input[type="file"] {
+  padding: 0;
+}
+
+/* Título principal */
+h1 {
+  color: #0D3D56;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 50px;
+}
